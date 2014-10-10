@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "OJWT">
+      <FileRef
+         location = "group:OJWT/OJWT.m">
+      </FileRef>
+      <FileRef
+         location = "group:OJWT/OJWT.h">
+      </FileRef>
+      <FileRef
+         location = "group:OJWT/OJWTAlgorithm.h">
+      </FileRef>
+      <FileRef
+         location = "group:OJWT/OJWTAlgorithm.m">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Tests/ObjectiveJWTTests/OJWTTests.xcodeproj">
+   </FileRef>
+</Workspace>
