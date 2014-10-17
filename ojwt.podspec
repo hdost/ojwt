@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.source_files  = "OJWT/OJ*{.m,.h}"
+  s.source_files  = "OJWT/*OJ*{.m,.h}"
   s.public_header_files = "OJWT/*.h"
 
 end
