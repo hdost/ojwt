@@ -8,6 +8,6 @@
 
 #import "ObjectiveJWT.h"
 
-@implementation ObjectiveJWT
+@implementation OJWT
 
 @end

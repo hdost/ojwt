@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface ObjectiveJWT : NSObject
+#import "OJAlgorithm.h"
+#import "OJClaimsSet.h"
+
+@interface OJWT : NSObject
 
 @end

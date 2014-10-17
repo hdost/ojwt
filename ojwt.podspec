@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "ojwt"
+  s.name         = "OJWT"
   s.version      = "0.0.1"
   s.summary      = "An Objective-C JSON Web Tokens Library"
   s.description  = <<-DESC

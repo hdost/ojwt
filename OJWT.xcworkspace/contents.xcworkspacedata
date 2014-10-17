@@ -2,22 +2,43 @@
 <Workspace
    version = "1.0">
    <Group
-      location = "container:"
+      location = "group:OJWT"
       name = "OJWT">
       <FileRef
-         location = "group:OJWT/OJWT.m">
+         location = "group:OJHeader.h">
       </FileRef>
       <FileRef
-         location = "group:OJWT/OJWT.h">
+         location = "group:OJHeader.m">
       </FileRef>
       <FileRef
-         location = "group:OJWT/OJWTAlgorithm.h">
+         location = "group:OJClaimsSet.h">
       </FileRef>
       <FileRef
-         location = "group:OJWT/OJWTAlgorithm.m">
+         location = "group:OJClaimsSet.m">
+      </FileRef>
+      <FileRef
+         location = "group:OJWT.h">
+      </FileRef>
+      <FileRef
+         location = "group:OJWT.m">
+      </FileRef>
+      <FileRef
+         location = "group:OJToken.h">
+      </FileRef>
+      <FileRef
+         location = "group:OJToken.m">
+      </FileRef>
+      <FileRef
+         location = "group:NSDate+OJDateUtilities.h">
+      </FileRef>
+      <FileRef
+         location = "group:NSDate+OJDateUtilities.m">
       </FileRef>
    </Group>
    <FileRef
-      location = "group:Tests/ObjectiveJWTTests/OJWTTests.xcodeproj">
+      location = "group:Tests/OJWTTests.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Tests/Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

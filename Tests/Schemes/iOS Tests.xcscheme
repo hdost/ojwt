@@ -9,6 +9,20 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "HD33BD339AD244DFA4115EC4"
+               BuildableName = "libPods-ios.a"
+               BlueprintName = "Pods-ios"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
             buildForAnalyzing = "YES">
@@ -17,7 +31,7 @@
                BlueprintIdentifier = "32D7C68D19E836050031A3D3"
                BuildableName = "iOS Tests.xctest"
                BlueprintName = "iOS Tests"
-               ReferencedContainer = "container:ObjectiveJWTTests.xcodeproj">
+               ReferencedContainer = "container:OJWTTests.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +49,7 @@
                BlueprintIdentifier = "32D7C68D19E836050031A3D3"
                BuildableName = "iOS Tests.xctest"
                BlueprintName = "iOS Tests"
-               ReferencedContainer = "container:ObjectiveJWTTests.xcodeproj">
+               ReferencedContainer = "container:OJWTTests.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +59,7 @@
             BlueprintIdentifier = "32D7C68D19E836050031A3D3"
             BuildableName = "iOS Tests.xctest"
             BlueprintName = "iOS Tests"
-            ReferencedContainer = "container:ObjectiveJWTTests.xcodeproj">
+            ReferencedContainer = "container:OJWTTests.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -64,7 +78,7 @@
             BlueprintIdentifier = "32D7C68D19E836050031A3D3"
             BuildableName = "iOS Tests.xctest"
             BlueprintName = "iOS Tests"
-            ReferencedContainer = "container:ObjectiveJWTTests.xcodeproj">
+            ReferencedContainer = "container:OJWTTests.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,7 +96,7 @@
             BlueprintIdentifier = "32D7C68D19E836050031A3D3"
             BuildableName = "iOS Tests.xctest"
             BlueprintName = "iOS Tests"
-            ReferencedContainer = "container:ObjectiveJWTTests.xcodeproj">
+            ReferencedContainer = "container:OJWTTests.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "OJWT.h"
 
 @interface iOS_Tests : XCTestCase
 
@@ -17,7 +18,8 @@
 
 - (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    // Put setup code here. This method is called before the invocation of each test method in the class
+    NSDate 
 }
 
 - (void)tearDown {
@@ -25,8 +27,10 @@
     [super tearDown];
 }
 
-- (void)testExample {
+- (void)testClaimSetFromJson {
     // This is an example of a functional test case.
+    [[NSJSONSerialization dataWithJSONObject:<#(id)#> options:<#(NSJSONWritingOptions)#> error:<#(NSError *__autoreleasing *)#>
+    XCTAssertEqualObjects(@"{\"iss\":\"joe\",\"exp\":1300819380,\"http://example.com/is_root\":true}", @"{\"iss\":\"joe\",\"exp\":1300819380,\"http://example.com/is_root\":true}",@"Pass");
     XCTAssert(YES, @"Pass");
 }
 
@@ -35,6 +39,9 @@
     [self measureBlock:^{
         // Put the code you want to measure the time of here.
     }];
+    [[NSException exceptionWithName:@"" reason:@"" userInfo:nil] raise];
+    NSString* string = @"somestring";
+    string
 }
 
 @end

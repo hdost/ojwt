@@ -1,0 +1,14 @@
+PODS:
+  - OJWT (0.0.1)
+
+DEPENDENCIES:
+  - OJWT (from `../`)
+
+EXTERNAL SOURCES:
+  OJWT:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OJWT: e0fcf18cf529c429b9acfa81438da2f3040fbc10
+
+COCOAPODS: 0.34.2
