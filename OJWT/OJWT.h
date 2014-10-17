@@ -10,7 +10,7 @@
 
 #import "OJAlgorithm.h"
 #import "OJClaimsSet.h"
-
-@interface OJWT : NSObject
-
-@end
+#import "OJHeader.h"
+#import "OJToken.h"
+#import "NSDate+OJDateUtilities.h"
+#import "NSString+OJStringUtilities.h"

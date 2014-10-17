@@ -11,11 +11,11 @@
 @implementation NSDate (OJDateUtilities)
 
 + (instancetype)initWithEpochString:(NSString*)string{
-    return [NSDate dateWithTimeIntervalSince1970:[string doubleValue]];
+    return [[NSDate alloc] dateWithTimeIntervalSince1970:[string doubleValue]];
 }
 
 - (NSString*)toEpochString{
-    return [@(floor([date timeIntervalSince1970])) stringValue];
+    return [@(floor([self timeIntervalSince1970])) stringValue];
 }
 
 @end

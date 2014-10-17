@@ -12,10 +12,11 @@
 
 @interface OJToken : NSObject
 
+@property (nonatomic,strong) NSString* originalString;
 @property (nonatomic,strong) OJHeader* header;
 @property (nonatomic,strong) OJClaimsSet* claimsSet;
+@property (nonatomic,strong) NSString* signature;
 
 +(instancetype) initWithTokenString:(NSString*)tokenString;
-+(BOOL)isTokenStringExpired:(NSString*)tokenString;
--(BOOL)isExpired;
+-(BOOL)isValid;
 @end

@@ -20,9 +20,6 @@
          location = "group:OJWT.h">
       </FileRef>
       <FileRef
-         location = "group:OJWT.m">
-      </FileRef>
-      <FileRef
          location = "group:OJToken.h">
       </FileRef>
       <FileRef
@@ -33,6 +30,12 @@
       </FileRef>
       <FileRef
          location = "group:NSDate+OJDateUtilities.m">
+      </FileRef>
+      <FileRef
+         location = "group:NSString+OJStringUtilities.h">
+      </FileRef>
+      <FileRef
+         location = "group:NSString+OJStringUtilities.m">
       </FileRef>
    </Group>
    <FileRef

@@ -40,8 +40,7 @@
         // Put the code you want to measure the time of here.
     }];
     [[NSException exceptionWithName:@"" reason:@"" userInfo:nil] raise];
-    NSString* string = @"somestring";
-    string
+
 }
 
 @end
